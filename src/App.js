@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from './components/Button';
+import ButtonPanel from './components/ButtonPanel';
 
 class App extends Component {
   constructor(props) {
@@ -10,9 +10,8 @@ class App extends Component {
   render() {
     return (
       <div className="calculator">
-        <Button />
+        <ButtonPanel />
       </div>
-
     );
   }
 }

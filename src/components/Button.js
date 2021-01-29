@@ -1,12 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Button = props => {
-  console.log(props);
+  const { name } = props;
   return (
     <>
-      <button type="button">Hello</button>
+      <button type="button">{name}</button>
     </>
   );
+};
+
+Button.propTypes = {
+  name: PropTypes.string,
+};
+
+Button.defaultProps = {
+  name: '',
 };
 
 export default Button;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Display from './components/Display';
 import ButtonPanel from './components/ButtonPanel';
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="calculator">
+        <Display result="0" />
         <ButtonPanel />
       </div>
     );

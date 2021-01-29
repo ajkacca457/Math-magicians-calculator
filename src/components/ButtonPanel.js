@@ -28,7 +28,7 @@ const ButtonPanel = () => (
       <Button name="3" />
       <Button name="+" />
     </div>
-    <div className="btn-group">
+    <div className="btn-group g-4">
       <Button name="0" />
       <Button name="." />
       <Button name="=" />

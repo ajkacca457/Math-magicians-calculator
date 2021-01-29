@@ -11,6 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="calculator">
+        <h2>Math Magician Calculator</h2>
         <Display result="0" />
         <ButtonPanel />
       </div>

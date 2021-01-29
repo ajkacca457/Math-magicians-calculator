@@ -1,8 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Button = props => (
-  <div />
-);
+const Button = props => {
+  console.log(props);
+  return (
+    <>
+      <button type="button">Hello</button>
+    </>
+  );
+};
 
 export default Button;

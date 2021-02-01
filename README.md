@@ -1,6 +1,8 @@
 # Math-magicians-calculator
 
-Math-magicians-calculator is a calculator app build with react js.
+Math-magicians-calculator is a calculator app build with react js. The aim of this project was to practice application of state, props and react events. This app also required basic prop drilling. The features of the app includes:
+- Basic binary operations
+- Calculations with big numbers
 
 ## Project Display
 

@@ -22,7 +22,7 @@ const operate = (firstinput, secondinput, operation) => {
       outcome = firstvalue.div(secondvalue);
       break;
     default:
-      outcome = firstvalue.times(secondvalue.times(0.01));
+      outcome = firstvalue.times(secondvalue);
   }
   return outcome.toString();
 };

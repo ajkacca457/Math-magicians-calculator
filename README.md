@@ -32,6 +32,7 @@ $ cd <folder>
 $ git clone `https://github.com/ajkacca457/math-magicians-calculator.git`
 $ cd math-magicians-calculator
 $ Run `npm install` to install the necessary modules
+$ Run `npm run start` to open app in localhost.
 
 ```
 

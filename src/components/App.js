@@ -29,12 +29,13 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state);
     return (
-      <div className="calculator">
+      <div className="container">
         <h2>Math Magician Calculator</h2>
-        <Display result={this.updateResult()} />
-        <ButtonPanel handleClick={this.handleClick} />
+        <div className="calculator">
+          <Display result={this.updateResult()} />
+          <ButtonPanel handleClick={this.handleClick} />
+        </div>
       </div>
     );
   }

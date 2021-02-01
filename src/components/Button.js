@@ -5,7 +5,13 @@ const Button = props => {
   const { name, handleClick } = props;
   return (
     <>
-      <button type="button" onClick={() => handleClick(name)}>{name}</button>
+      <button
+        type="button"
+        onClick={() => handleClick(name)}
+        className={!(name === '÷' || name === 'X' || name === '-' || name === '+' || name === '=') ? '' : 'orange'}
+      >
+        {name}
+      </button>
     </>
   );
 };

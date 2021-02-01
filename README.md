@@ -4,7 +4,7 @@ Math-magicians-calculator is a calculator app build with react js.
 
 ## Project Display
 
-![screenshot](./src/images/interface.PNG)
+![screenshot](./src/images/interface1.PNG)
 
 ## Live Demo
 

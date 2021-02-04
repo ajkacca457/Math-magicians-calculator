@@ -1,8 +1,13 @@
 import React from 'react';
 
 const Home = () => (
-  <div className="home" style={{ width: '80%', margin: '1% auto' }}>
-    <h1 style={{ textAlign: 'left', fontSize: '140%' }}>Welcome to our page!</h1>
+  <div className="home" style={{ width: '80%', margin: '10% auto' }}>
+    <h1 style={{
+      textAlign: 'left', fontSize: '140%', textDecoration: 'underline', color: 'orange',
+    }}
+    >
+      Welcome to our page!
+    </h1>
     <p style={{ textAlign: 'justify', lineHeight: '1.8' }}>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

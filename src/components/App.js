@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Display from './Display';
-import ButtonPanel from './ButtonPanel';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 // eslint-disable-next-line no-unused-vars
 import calculate from '../logic/calculate';
 import Home from './Home';
 import Quote from './Quote';
 import Navbar from './Navbar';
+import Calculator from './Calculator';
 
 class App extends Component {
   constructor(props) {
@@ -33,17 +33,26 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
-        <Navbar />
-        <div className="container">
-          <div className="calculator">
-            <Display result={this.updateResult()} />
-            <ButtonPanel handleClick={this.handleClick} />
-          </div>
+      <Router>
+        <div className="app">
+          <Navbar />
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
+          <Route exac path="/home" component={Home} />
+          <Route
+            exact
+            path="/calculator"
+            render={() => (
+              <Calculator
+                updateResult={this.updateResult}
+                handleClick={this.handleClick}
+              />
+            )}
+          />
+          <Route exac path="/quote" component={Quote} />
         </div>
-        <Home />
-        <Quote />
-      </div>
+      </Router>
     );
   }
 }

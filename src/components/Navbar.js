@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const navstyle = {
   display: 'flex',
@@ -9,13 +10,19 @@ const navstyle = {
   padding: '5px 10px',
 };
 
+const linkstyle = {
+  textDecoration: 'none',
+  color: 'white',
+  marginRight: '10px',
+};
+
 const Navbar = () => (
   <div className="navbar" style={navstyle}>
     <h3 style={{ margin: '5px' }}>Math Magician Calculator</h3>
     <div className="links">
-      <a href="https://www.google.com/">Home</a>
-      <a href="https://www.google.com/">Calculator</a>
-      <a href="https://www.google.com/">Quote</a>
+      <Link to="/home" style={linkstyle}>Home</Link>
+      <Link to="/calculator" style={linkstyle}>Calculator</Link>
+      <Link to="/quote" style={linkstyle}>Quote</Link>
     </div>
 
   </div>

@@ -13,16 +13,16 @@ const navstyle = {
 const linkstyle = {
   textDecoration: 'none',
   color: 'white',
-  marginRight: '10px',
+  marginRight: '15px',
 };
 
 const Navbar = () => (
   <div className="navbar" style={navstyle}>
     <h3 style={{ margin: '5px' }}>Math Magician Calculator</h3>
     <div className="links">
-      <Link to="/home" style={linkstyle}>Home</Link>
-      <Link to="/calculator" style={linkstyle}>Calculator</Link>
-      <Link to="/quote" style={linkstyle}>Quote</Link>
+      <Link to="/home" style={linkstyle} className="link">Home</Link>
+      <Link to="/calculator" style={linkstyle} className="link">Calculator</Link>
+      <Link to="/quote" style={linkstyle} className="link">Quote</Link>
     </div>
 
   </div>

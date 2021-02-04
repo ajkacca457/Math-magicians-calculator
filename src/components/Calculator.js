@@ -8,6 +8,7 @@ const Calculator = props => {
 
   return (
     <div className="container">
+      <h2 style={{ backgroundColor: '#f5913e', color: 'black', padding: '5px' }}>Let’s do some math!</h2>
       <div className="calculator">
         <Display result={updateResult()} />
         <ButtonPanel handleClick={handleClick} />

@@ -5,6 +5,7 @@ import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 import Home from './Home';
 import Quote from './Quote';
+import Navbar from './Navbar';
 
 class App extends Component {
   constructor(props) {
@@ -33,8 +34,8 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <Navbar />
         <div className="container">
-          <h2>Math Magician Calculator</h2>
           <div className="calculator">
             <Display result={this.updateResult()} />
             <ButtonPanel handleClick={this.handleClick} />

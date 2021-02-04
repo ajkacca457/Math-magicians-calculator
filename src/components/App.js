@@ -3,6 +3,8 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 // eslint-disable-next-line no-unused-vars
 import calculate from '../logic/calculate';
+import Home from './Home';
+import Quote from './Quote';
 
 class App extends Component {
   constructor(props) {
@@ -30,12 +32,16 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <h2>Math Magician Calculator</h2>
-        <div className="calculator">
-          <Display result={this.updateResult()} />
-          <ButtonPanel handleClick={this.handleClick} />
+      <div className="app">
+        <div className="container">
+          <h2>Math Magician Calculator</h2>
+          <div className="calculator">
+            <Display result={this.updateResult()} />
+            <ButtonPanel handleClick={this.handleClick} />
+          </div>
         </div>
+        <Home />
+        <Quote />
       </div>
     );
   }

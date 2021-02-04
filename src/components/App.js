@@ -6,6 +6,7 @@ import Home from './Home';
 import Quote from './Quote';
 import Navbar from './Navbar';
 import Calculator from './Calculator';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 class App extends Component {
   constructor(props) {

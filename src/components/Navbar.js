@@ -18,11 +18,23 @@ const linkstyle = {
 
 const Navbar = () => (
   <div className="navbar" style={navstyle}>
-    <h3 style={{ margin: '5px' }}>Math Magician Calculator</h3>
+    <h3 style={{ margin: '5px' }}>
+      Math Magician Calculator
+      <i className="fas fa-magic" style={{ marginLeft: '5px' }} />
+    </h3>
     <div className="links">
-      <Link to="/home" style={linkstyle} className="link">Home</Link>
-      <Link to="/calculator" style={linkstyle} className="link">Calculator</Link>
-      <Link to="/quote" style={linkstyle} className="link">Quote</Link>
+      <Link to="/home" style={linkstyle} className="link">
+        <i className="fas fa-home" style={{ marginRight: '5px' }} />
+        Home
+      </Link>
+      <Link to="/calculator" style={linkstyle} className="link">
+        <i className="fas fa-calculator" style={{ marginRight: '5px' }} />
+        Calculator
+      </Link>
+      <Link to="/quote" style={linkstyle} className="link">
+        <i className="far fa-comments" style={{ marginRight: '5px' }} />
+        Quote
+      </Link>
     </div>
 
   </div>

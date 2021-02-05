@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders correctly 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="navbar"
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5913e",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "margin": "0px",
+        "padding": "5px 10px",
+      }
+    }
+  >
+    <h3
+      style={
+        Object {
+          "margin": "5px",
+        }
+      }
+    >
+      Math Magician Calculator
+      <i
+        className="fas fa-magic"
+        style={
+          Object {
+            "marginLeft": "5px",
+          }
+        }
+      />
+    </h3>
+    <div
+      className="links"
+    >
+      <a
+        className="link"
+        href="/home"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "white",
+            "marginRight": "15px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <i
+          className="fas fa-home"
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        />
+        Home
+      </a>
+      <a
+        className="link"
+        href="/calculator"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "white",
+            "marginRight": "15px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <i
+          className="fas fa-calculator"
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        />
+        Calculator
+      </a>
+      <a
+        className="link"
+        href="/quote"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "white",
+            "marginRight": "15px",
+            "textDecoration": "none",
+          }
+        }
+      >
+        <i
+          className="far fa-comments"
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        />
+        Quote
+      </a>
+    </div>
+  </div>
+  <div
+    className="home"
+    style={
+      Object {
+        "margin": "10% auto",
+        "width": "80%",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "color": "orange",
+          "fontSize": "140%",
+          "textAlign": "left",
+          "textDecoration": "underline",
+        }
+      }
+    >
+      Welcome to our page!
+    </h1>
+    <p
+      style={
+        Object {
+          "lineHeight": "1.8",
+          "textAlign": "justify",
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+    </p>
+    <p
+      style={
+        Object {
+          "lineHeight": "1.8",
+          "textAlign": "justify",
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+    </p>
+  </div>
+</div>
+`;

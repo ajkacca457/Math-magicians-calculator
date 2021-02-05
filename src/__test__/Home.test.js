@@ -5,12 +5,11 @@ import '@testing-library/jest-dom/extend-expect';
 import Home from '../components/Home';
 
 describe('Home Component', () => {
-
   it('renders correctly', () => {
     const hometree = TestRenderer
       .create(<Home />)
       .toJSON();
-    expect(hometree).toMatchSnapshot();;
+    expect(hometree).toMatchSnapshot();
   });
 
   test('renders the title text of the Home page', () => {

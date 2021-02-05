@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Component renders correctly 1`] = `
+<div
+  className="quote"
+>
+  <h3
+    style={
+      Object {
+        "fontSize": "150%",
+        "margin": " 15% auto",
+        "width": "60%",
+      }
+    }
+  >
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.
+     
+    <br />
+    <span
+      style={
+        Object {
+          "color": "orange",
+        }
+      }
+    >
+      –William Paul Thurston
+    </span>
+  </h3>
+</div>
+`;

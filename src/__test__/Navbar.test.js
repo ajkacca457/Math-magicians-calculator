@@ -3,17 +3,20 @@ import { BrowserRouter } from 'react-router-dom';
 import TestRenderer from 'react-test-renderer';
 import '@testing-library/jest-dom/extend-expect';
 import Navbar from '../components/Navbar';
-/*eslint-disable */
+
 describe('Navbar Component', () => {
   it('renders correctly', () => {
     const navtree = TestRenderer
-      .create(<BrowserRouter>
+      .create(
+        /*eslint-disable */
+        <BrowserRouter>
         {' '}
         <Navbar />
         {' '}
-              </BrowserRouter>)
+
+      </BrowserRouter>)
+      /* eslint-enable */
       .toJSON();
     expect(navtree).toMatchSnapshot();
   });
 });
-/* eslint-enable */

@@ -10,10 +10,11 @@ describe('Navbar Component', () => {
       .create(
         /* eslint-disable no-unused-vars */
         <BrowserRouter>
-        {' '}
-        <Navbar />
-        {' '}
-      </BrowserRouter>)
+          {' '}
+          <Navbar />
+          {' '}
+        </BrowserRouter>,
+      )
       .toJSON();
       /* eslint-enable no-unused-vars */
     expect(navtree).toMatchSnapshot();

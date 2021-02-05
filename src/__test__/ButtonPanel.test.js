@@ -4,13 +4,11 @@ import '@testing-library/jest-dom/extend-expect';
 import ButtonPanel from '../components/ButtonPanel';
 
 describe('ButtonPanel Component', () => {
-  /* eslint-disable no-unused-vars */
+  const handleClick = () => { ''; };
+
   it('renders correctly', () => {
-    const originalError = console.error;
-    console.error = jest.fn();
     const btnpaneltree = TestRenderer
-      .create(<ButtonPanel />)
-      /* eslint-enable no-unused-vars */
+      .create(<ButtonPanel handleClick={handleClick} />)
       .toJSON();
     expect(btnpaneltree).toMatchSnapshot();
   });

@@ -7,6 +7,8 @@ Math-magicians-calculator is a calculator app build with react js. The aim of th
 ## Project Display
 
 ![screenshot](./src/images/interface1.PNG)
+![screenshot](./src/images/interface2.PNG)
+![screenshot](./src/images/interface3.PNG)
 
 ## Live Demo
 
@@ -35,6 +37,16 @@ $ git clone `https://github.com/ajkacca457/math-magicians-calculator.git`
 $ cd math-magicians-calculator
 $ Run `npm install` to install the necessary modules
 $ Run `npm run start` to open app in localhost.
+
+```
+
+# Testing Project
+
+To run test in your terminal:
+
+```bash
+$ Run `npm run test` to run test
+$ enter `a` to run all the test in the app.
 
 ```
 

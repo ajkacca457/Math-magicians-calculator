@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Correctly renders Display component 1`] = `
+<div
+  className="result"
+>
+  <h3>
+    0
+  </h3>
+</div>
+`;

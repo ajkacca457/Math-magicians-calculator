@@ -50,3 +50,19 @@ test('multiplication will not add two numbers', () => {
 test('multiplication will not divide number', () => {
   expect(operate(num1, num2, 'X')).not.toEqual('5');
 });
+
+test('division will divide two numbers', () => {
+  expect(operate(num1, num2, '÷')).toEqual('5');
+});
+
+test('division will not subtract number', () => {
+  expect(operate(num1, num2, '÷')).not.toEqual('24');
+});
+
+test('division will not add two numbers', () => {
+  expect(operate(num1, num2, '÷')).not.toEqual('36');
+});
+
+test('division will not multiply number', () => {
+  expect(operate(num1, num2, '÷')).not.toEqual('180');
+});

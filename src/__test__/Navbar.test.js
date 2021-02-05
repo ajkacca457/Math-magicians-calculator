@@ -8,15 +8,14 @@ describe('Navbar Component', () => {
   it('renders correctly', () => {
     const navtree = TestRenderer
       .create(
-        /*eslint-disable */
+        /* eslint-disable no-unused-vars */
         <BrowserRouter>
         {' '}
         <Navbar />
         {' '}
-
       </BrowserRouter>)
-      /* eslint-enable */
       .toJSON();
+      /* eslint-enable no-unused-vars */
     expect(navtree).toMatchSnapshot();
   });
 });

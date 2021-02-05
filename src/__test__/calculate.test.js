@@ -1,11 +1,11 @@
 import calculate from '../logic/calculate';
 
 describe('Testing cases for calculate.js Module', () => {
+  /* eslint-disable no-unused-vars */
   test('`AC` button will clear operation', () => {
-    /*eslint-disable */
     const result = calculate({ total: '10', next: '', operation: '' }, 'AC');
+  /* eslint-enable no-unused-vars */
     expect(result).toBeUndefined;
-    /* eslint-enable */
   });
 
   test('if the operation is + between two numbers equal sign will subtract them',

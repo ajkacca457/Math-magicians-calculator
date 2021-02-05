@@ -4,11 +4,23 @@ exports[`Quote Component renders correctly 1`] = `
 <div
   className="quote"
 >
+  <h4
+    style={
+      Object {
+        "fontSize": "150%",
+        "margin": " 5% auto",
+        "textDecoration": "underline",
+        "width": "60%",
+      }
+    }
+  >
+    Quote of the day
+  </h4>
   <h3
     style={
       Object {
         "fontSize": "150%",
-        "margin": " 15% auto",
+        "margin": " 10% auto",
         "width": "60%",
       }
     }

@@ -6,12 +6,14 @@ import '@testing-library/jest-dom/extend-expect';
 import Navbar from '../components/Navbar';
 
 describe('Navbar Component', () => {
-
   it('renders correctly', () => {
     const navtree = TestRenderer
-      .create(<BrowserRouter> <Navbar /> </BrowserRouter>)
+      .create(<BrowserRouter>
+        {' '}
+        <Navbar />
+        {' '}
+              </BrowserRouter>)
       .toJSON();
-    expect(navtree).toMatchSnapshot();;
+    expect(navtree).toMatchSnapshot();
   });
-
 });

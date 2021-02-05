@@ -6,12 +6,10 @@ import '@testing-library/jest-dom/extend-expect';
 import App from '../components/App';
 
 describe('App Component', () => {
-
   it('renders correctly', () => {
     const apptree = TestRenderer
       .create(<App />)
       .toJSON();
-    expect(apptree).toMatchSnapshot();;
+    expect(apptree).toMatchSnapshot();
   });
-
 });

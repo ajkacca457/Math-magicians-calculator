@@ -2,8 +2,10 @@ import calculate from '../logic/calculate';
 
 describe('Testing cases for calculate.js Module', () => {
   test('`AC` button will clear operation', () => {
+    /*eslint-disable */
     const result = calculate({ total: '10', next: '', operation: '' }, 'AC');
     expect(result).toBeUndefined;
+    /* eslint-enable */
   });
 
   test('if the operation is + between two numbers equal sign will subtract them',

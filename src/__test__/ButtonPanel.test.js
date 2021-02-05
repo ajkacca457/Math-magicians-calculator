@@ -1,13 +1,9 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import ButtonPanel from '../components/ButtonPanel';
-
-describe('Button Component', () => {
-
-  const handleClick = () => { ''; };
-
+/*eslint-disable */
+describe('ButtonPanel Component', () => {
   it('renders correctly', () => {
     const originalError = console.error;
     console.error = jest.fn();
@@ -17,3 +13,4 @@ describe('Button Component', () => {
     expect(btnpaneltree).toMatchSnapshot();
   });
 });
+/* eslint-enable */

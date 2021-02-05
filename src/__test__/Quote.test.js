@@ -1,6 +1,6 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
-import { screen, render } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Quote from '../components/Quote';
 
@@ -17,5 +17,4 @@ describe('Quote Component', () => {
     const title = getByText('Quote of the day');
     expect(title).toBeInTheDocument();
   });
-
 });
